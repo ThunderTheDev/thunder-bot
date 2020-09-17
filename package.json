@@ -1,0 +1,64 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "amethyste-api": "^1.1.4",
+    "ascii-table": "^0.0.9",
+    "c": "^1.0.2",
+    "canvacord": "^4.0.1",
+    "canvas": "^2.6.1",
+    "canvas-senpai": "0.0.2",
+    "cheerio": "^1.0.0-rc.3",
+    "danbot-hosting": "^0.1.4",
+    "discord-paginationembed": "^2.1.0",
+    "discord.js": "^12.2.0",
+    "discord.js-pagination": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fs": "^0.0.2",
+    "genius-lyrics": "^3.0.0",
+    "google-it": "^1.5.0",
+    "imdb-api": "^4.0.3",
+    "mal-scraper": "^2.7.1",
+    "mongoose": "^5.10.2",
+    "ms": "^2.1.2",
+    "node-superfetch": "^0.1.10",
+    "novelcovid": "^1.2.6",
+    "opusscript": "0.0.7",
+    "os": "^0.1.1",
+    "quick": "0.0.6",
+    "quick.db": "^7.1.1",
+    "random-puppy": "^1.1.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "server.js": "^1.0.0",
+    "simple-youtube-api": "^5.2.1",
+    "something-random-on-discord": "^0.0.1",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^3.2.2",
+    "ytdl-core-discord": "^1.2.1",
+    "ytsr": "^0.1.21"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
