@@ -7,6 +7,7 @@ const DanBotHosting = require("danbot-hosting");
 const client = new discord.Client({
   disableEveryone: true
 })
+require("./music.js")
 const { Random } = require("something-random-on-discord")
 const random = new Random();
 const { CanvasSenpai } = require("canvas-senpai")
